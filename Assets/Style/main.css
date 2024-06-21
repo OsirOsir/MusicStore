@@ -12,6 +12,7 @@ main{
   row-gap: 50px;
 }
 
+
 main audio{
   width: 100%;
   cursor: pointer;
@@ -19,4 +20,13 @@ main audio{
 main a{
   background-color: rgb(131, 120, 120) !important;
   border: none !important;
+}
+
+.card{
+  transition: box-shadow 0.6s ease, transform 0.6s ease;
+}
+
+.card:hover{
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.5);
+  transform: translateY(15px);
 }
