@@ -1,0 +1,22 @@
+body{
+  height: 1400px;
+  position: relative;
+}
+
+main{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: space-evenly;
+  margin-left: 100px;
+  margin-top: 50px;
+  row-gap: 50px;
+}
+
+main audio{
+  width: 100%;
+  cursor: pointer;
+}
+main a{
+  background-color: rgb(131, 120, 120) !important;
+  border: none !important;
+}
