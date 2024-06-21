@@ -1,0 +1,13 @@
+header{
+  background-color: rgb(58, 57, 57);
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+header p{
+  color: white;
+  font-size: 20px;
+
+}
